@@ -1,0 +1,906 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3167A812-5D2C-4EE9-ACFD-F0E959384755}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>spinnycube</RootNamespace>
+    <ProjectName>GameEngine</ProjectName>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)include;$(SolutionDir)extern\glfw-2.7.6\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib;$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)_Debug</TargetName>
+    <OutDir>$(ProjectDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <GenerateManifest>false</GenerateManifest>
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)include;$(SolutionDir)extern\glfw-2.7.6\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <IntDir>$(ProjectName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)dist\Math\include;$(SolutionDir)dist\SB6\include;$(SolutionDir)dist\GLFW\include;$(SolutionDir)dist\PCStree\include;$(SolutionDir)dist\File\include;$(SolutionDir);$(SolutionDir)Box2D;$(SolutionDir)\src;$(ProjectDir)Time;$(ProjectDir)Texture;$(ProjectDir)Shaders;$(ProjectDir)Models;$(ProjectDir)Inputs;$(ProjectDir)Image;$(ProjectDir)GraphicsObjects;$(ProjectDir)GameObject;$(ProjectDir)Game;$(ProjectDir)Engine;$(ProjectDir)Camera;$(ProjectDir)Physics;$(ProjectDir)AzulTime;$(ProjectDir)GameObject\Birds;$(ProjectDir)GameObject\Pigs;$(ProjectDir)GameObject\Objects;$(ProjectDir)GameObject\Backgrounds;$(ProjectDir)GameObject\Effects;$(SolutionDir)..\..\..\..\reference\reference\irrKlang 1.5\include;$(ProjectDir)Audio;$(ProjectDir)Scene;$(ProjectDir)GameObject\Tower;$(ProjectDir)GameObject\Sling;$(ProjectDir)Animation;$(ProjectDir)AzulTime\TimerEvents;$(ProjectDir)Scene\Levels;$(ProjectDir)GameObject\Terrain;$(ProjectDir)MyAssets;$(ProjectDir)ParticleSystem</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <SDLCheck>
+      </SDLCheck>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <EnableParallelCodeGeneration>false</EnableParallelCodeGeneration>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <OpenMPSupport>false</OpenMPSupport>
+      <UseUnicodeForAssemblerListing>false</UseUnicodeForAssemblerListing>
+      <DisableSpecificWarnings>
+      </DisableSpecificWarnings>
+      <WarningVersion>
+      </WarningVersion>
+      <ForcedIncludeFiles>$(SolutionDir)\src\MemTracker\Framework.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>MSVCRTD.lib</IgnoreSpecificDefaultLibraries>
+      <ShowProgress>NotSet</ShowProgress>
+      <LinkStatus>
+      </LinkStatus>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+    </Link>
+    <PreBuildEvent>
+      <Command>copy "$(SolutionDir)..\..\..\..\reference\reference\irrKlang 1.5\lib\*.*" "$(ProjectDir)$(Configuration)\"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Box2D\Collision\b2BroadPhase.cpp" />
+    <ClCompile Include="..\Box2D\Collision\b2CollideCircle.cpp" />
+    <ClCompile Include="..\Box2D\Collision\b2CollideEdge.cpp" />
+    <ClCompile Include="..\Box2D\Collision\b2CollidePolygon.cpp" />
+    <ClCompile Include="..\Box2D\Collision\b2Collision.cpp" />
+    <ClCompile Include="..\Box2D\Collision\b2Distance.cpp" />
+    <ClCompile Include="..\Box2D\Collision\b2DynamicTree.cpp" />
+    <ClCompile Include="..\Box2D\Collision\b2TimeOfImpact.cpp" />
+    <ClCompile Include="..\Box2D\Collision\Shapes\b2ChainShape.cpp" />
+    <ClCompile Include="..\Box2D\Collision\Shapes\b2CircleShape.cpp" />
+    <ClCompile Include="..\Box2D\Collision\Shapes\b2EdgeShape.cpp" />
+    <ClCompile Include="..\Box2D\Collision\Shapes\b2PolygonShape.cpp" />
+    <ClCompile Include="..\Box2D\Common\b2BlockAllocator.cpp" />
+    <ClCompile Include="..\Box2D\Common\b2Draw.cpp" />
+    <ClCompile Include="..\Box2D\Common\b2Math.cpp" />
+    <ClCompile Include="..\Box2D\Common\b2Settings.cpp" />
+    <ClCompile Include="..\Box2D\Common\b2StackAllocator.cpp" />
+    <ClCompile Include="..\Box2D\Common\b2Timer.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\b2Body.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\b2ContactManager.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\b2Fixture.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\b2Island.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\b2World.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\b2WorldCallbacks.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2CircleContact.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2Contact.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2ContactSolver.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2PolygonContact.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2DistanceJoint.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2FrictionJoint.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2GearJoint.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2Joint.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2MotorJoint.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2MouseJoint.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2PrismaticJoint.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2PulleyJoint.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2RevoluteJoint.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2RopeJoint.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2WeldJoint.cpp" />
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2WheelJoint.cpp" />
+    <ClCompile Include="..\Box2D\Rope\b2Rope.cpp" />
+    <ClCompile Include="Animation\Animation.cpp" />
+    <ClCompile Include="Audio\Audio.cpp" />
+    <ClCompile Include="Audio\AudioManager.cpp" />
+    <ClCompile Include="AzulTime\AzulStopWatch.cpp" />
+    <ClCompile Include="AzulTime\AzulTime.cpp" />
+    <ClCompile Include="AzulTime\Timer.cpp" />
+    <ClCompile Include="AzulTime\TimerEvents\BangEvent.cpp" />
+    <ClCompile Include="AzulTime\TimerEvents\BirdDeath.cpp" />
+    <ClCompile Include="AzulTime\TimerEvents\GravityBox.cpp" />
+    <ClCompile Include="AzulTime\TimerEvents\InverseGravity.cpp" />
+    <ClCompile Include="AzulTime\TimerEvents\LevelLoader.cpp" />
+    <ClCompile Include="AzulTime\TimerEvents\NextLevelLoader.cpp" />
+    <ClCompile Include="AzulTime\TimerEvents\SmokeDeletion.cpp" />
+    <ClCompile Include="AzulTime\TimerEvents\TimerEvent.cpp" />
+    <ClCompile Include="AzulTime\TimerEvents\TrailCreation.cpp" />
+    <ClCompile Include="AzulTime\TimerMan.cpp" />
+    <ClCompile Include="AzulTime\Timer_win32.cpp" />
+    <ClCompile Include="Camera\Camera.cpp" />
+    <ClCompile Include="Camera\CameraMan.cpp" />
+    <ClCompile Include="Engine\DebugOut.cpp" />
+    <ClCompile Include="Engine\Engine.cpp" />
+    <ClCompile Include="GameObject\Backgrounds\Background.cpp" />
+    <ClCompile Include="GameObject\Backgrounds\BackgroundFactory.cpp" />
+    <ClCompile Include="GameObject\Birds\BigBird.cpp" />
+    <ClCompile Include="GameObject\Birds\Bird.cpp" />
+    <ClCompile Include="GameObject\Birds\BirdFactory.cpp" />
+    <ClCompile Include="GameObject\Birds\BlueBird.cpp" />
+    <ClCompile Include="GameObject\Birds\Bomb.cpp" />
+    <ClCompile Include="GameObject\Birds\GreenBird.cpp" />
+    <ClCompile Include="GameObject\Birds\RedBird.cpp" />
+    <ClCompile Include="GameObject\Birds\WhiteBird.cpp" />
+    <ClCompile Include="GameObject\Birds\YellowBird.cpp" />
+    <ClCompile Include="GameObject\Effects\Effect.cpp" />
+    <ClCompile Include="GameObject\Effects\EffectFactory.cpp" />
+    <ClCompile Include="GameObject\GameObject.cpp" />
+    <ClCompile Include="GameObject\GameObject2D.cpp" />
+    <ClCompile Include="GameObject\GameObjectMan.cpp" />
+    <ClCompile Include="GameObject\GameSortBucket.cpp" />
+    <ClCompile Include="GameObject\Objects\CollisionObjectBox.cpp" />
+    <ClCompile Include="GameObject\Objects\CollisionObjectCircle.cpp" />
+    <ClCompile Include="GameObject\Objects\CollisionObjectTri.cpp" />
+    <ClCompile Include="GameObject\Objects\Egg.cpp" />
+    <ClCompile Include="GameObject\Objects\Gear.cpp" />
+    <ClCompile Include="GameObject\Objects\Glass.cpp" />
+    <ClCompile Include="GameObject\Objects\ObjectFactory.cpp" />
+    <ClCompile Include="GameObject\Objects\Platform.cpp" />
+    <ClCompile Include="GameObject\Objects\Rope.cpp" />
+    <ClCompile Include="GameObject\Objects\SensorBox.cpp" />
+    <ClCompile Include="GameObject\Objects\Stone.cpp" />
+    <ClCompile Include="GameObject\Objects\Wood.cpp" />
+    <ClCompile Include="GameObject\Pigs\CorporalPig.cpp" />
+    <ClCompile Include="GameObject\Pigs\ForemanPig.cpp" />
+    <ClCompile Include="GameObject\Pigs\KingPig.cpp" />
+    <ClCompile Include="GameObject\Pigs\MinionPig.cpp" />
+    <ClCompile Include="GameObject\Pigs\PigFactory.cpp" />
+    <ClCompile Include="GameObject\Sling\Sling.cpp" />
+    <ClCompile Include="GameObject\Sling\SlingFactory.cpp" />
+    <ClCompile Include="GameObject\Sling\SlingList.cpp" />
+    <ClCompile Include="GameObject\Sling\SlingQueue.cpp" />
+    <ClCompile Include="GameObject\Terrain\Terrain.cpp" />
+    <ClCompile Include="GameObject\Terrain\TerrainSegment.cpp" />
+    <ClCompile Include="GameObject\Tower\Tower.cpp" />
+    <ClCompile Include="GameObject\Tower\Tower1.cpp" />
+    <ClCompile Include="GameObject\Tower\Tower2.cpp" />
+    <ClCompile Include="GameObject\Tower\Tower3.cpp" />
+    <ClCompile Include="GameObject\Tower\TowerFactory.cpp" />
+    <ClCompile Include="Game\Game.cpp" />
+    <ClCompile Include="Game\main.cpp" />
+    <ClCompile Include="GraphicsObjects\GraphcisObject_Box.cpp" />
+    <ClCompile Include="GraphicsObjects\GraphicsObject.cpp" />
+    <ClCompile Include="GraphicsObjects\GraphicsObject_Circle.cpp" />
+    <ClCompile Include="GraphicsObjects\GraphicsObject_ColorByPosition.cpp" />
+    <ClCompile Include="GraphicsObjects\GraphicsObject_FlatTexture.cpp" />
+    <ClCompile Include="GraphicsObjects\GraphicsObject_Sprite.cpp" />
+    <ClCompile Include="GraphicsObjects\GraphicsObject_TextureLight.cpp" />
+    <ClCompile Include="GraphicsObjects\GraphicsObject_Tri.cpp" />
+    <ClCompile Include="GraphicsObjects\GraphicsObject_Wireframe.cpp" />
+    <ClCompile Include="GraphicsObjects\Visualizer.cpp" />
+    <ClCompile Include="Image\Color.cpp" />
+    <ClCompile Include="Image\Image.cpp" />
+    <ClCompile Include="Image\ImageMan.cpp" />
+    <ClCompile Include="Image\ImageNode.cpp" />
+    <ClCompile Include="Image\Rect.cpp" />
+    <ClCompile Include="Image\Vect2D.cpp" />
+    <ClCompile Include="Inputs\AABBQuery.cpp" />
+    <ClCompile Include="Inputs\DragInput.cpp" />
+    <ClCompile Include="Inputs\ImpulseInput.cpp" />
+    <ClCompile Include="Inputs\InputManager.cpp" />
+    <ClCompile Include="Inputs\InputSystem.cpp" />
+    <ClCompile Include="Inputs\Keyboard.cpp" />
+    <ClCompile Include="Inputs\LanderInput.cpp" />
+    <ClCompile Include="Inputs\LevelSelector.cpp" />
+    <ClCompile Include="Inputs\LineCollider.cpp" />
+    <ClCompile Include="Inputs\LineDynamicCollider.cpp" />
+    <ClCompile Include="Inputs\Mouse.cpp" />
+    <ClCompile Include="Inputs\RayCastQuery.cpp" />
+    <ClCompile Include="Inputs\SaltSalt.cpp" />
+    <ClCompile Include="Inputs\SlingDrag.cpp" />
+    <ClCompile Include="Inputs\TowerControl.cpp" />
+    <ClCompile Include="Models\BoxModel.cpp" />
+    <ClCompile Include="Models\CircleModel.cpp" />
+    <ClCompile Include="Models\CubeModel.cpp" />
+    <ClCompile Include="Models\Model.cpp" />
+    <ClCompile Include="Models\ModelMan.cpp" />
+    <ClCompile Include="Models\SpriteModel.cpp" />
+    <ClCompile Include="Models\TriModel.cpp" />
+    <ClCompile Include="ParticleSystem\ABStack.cpp" />
+    <ClCompile Include="ParticleSystem\CircleCollection.cpp" />
+    <ClCompile Include="ParticleSystem\CircleParticles.cpp" />
+    <ClCompile Include="ParticleSystem\ExplosionFeathers.cpp" />
+    <ClCompile Include="ParticleSystem\FeatherBlack.cpp" />
+    <ClCompile Include="ParticleSystem\FeatherBlue.cpp" />
+    <ClCompile Include="ParticleSystem\FeatherGreen.cpp" />
+    <ClCompile Include="ParticleSystem\FeatherRed.cpp" />
+    <ClCompile Include="ParticleSystem\FeatherWhite.cpp" />
+    <ClCompile Include="ParticleSystem\FeatherYellow.cpp" />
+    <ClCompile Include="ParticleSystem\ManagedPool.cpp" />
+    <ClCompile Include="ParticleSystem\ProjectedTrajectory.cpp" />
+    <ClCompile Include="ParticleSystem\Projector.cpp" />
+    <ClCompile Include="ParticleSystem\ProjectorCollection.cpp" />
+    <ClCompile Include="ParticleSystem\TrailCollection.cpp" />
+    <ClCompile Include="ParticleSystem\TrailSmoke.cpp" />
+    <ClCompile Include="Physics\AABBRayCast.cpp" />
+    <ClCompile Include="Physics\AngryContactListener.cpp" />
+    <ClCompile Include="Physics\CollisionControl.cpp" />
+    <ClCompile Include="Physics\ContactAction.cpp" />
+    <ClCompile Include="Physics\LineRayCast.cpp" />
+    <ClCompile Include="Physics\PhysicsManager.cpp" />
+    <ClCompile Include="Physics\PhysicsObject.cpp" />
+    <ClCompile Include="Scene\Levels\EighthLevel.cpp" />
+    <ClCompile Include="Scene\Levels\FifthLevel.cpp" />
+    <ClCompile Include="Scene\Levels\FirstLevel.cpp" />
+    <ClCompile Include="Scene\Levels\FourthLevel.cpp" />
+    <ClCompile Include="Scene\Levels\LoadLevel.cpp" />
+    <ClCompile Include="Scene\Levels\SecondLevel.cpp" />
+    <ClCompile Include="Scene\Levels\SeventhLevel.cpp" />
+    <ClCompile Include="Scene\Levels\SixthLevel.cpp" />
+    <ClCompile Include="Scene\Levels\ThirdLevel.cpp" />
+    <ClCompile Include="Scene\Scene.cpp" />
+    <ClCompile Include="Scene\SceneManager.cpp" />
+    <ClCompile Include="Shaders\ShaderMan.cpp" />
+    <ClCompile Include="Shaders\ShaderNode.cpp" />
+    <ClCompile Include="Shaders\Shaders.cpp" />
+    <ClCompile Include="Texture\Texture.cpp" />
+    <ClCompile Include="Texture\TextureMan.cpp" />
+    <ClCompile Include="Texture\TextureNode.cpp" />
+    <ClCompile Include="Texture\TextureTGA.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Box2D\Box2D.h" />
+    <ClInclude Include="..\Box2D\Collision\b2BroadPhase.h" />
+    <ClInclude Include="..\Box2D\Collision\b2Collision.h" />
+    <ClInclude Include="..\Box2D\Collision\b2Distance.h" />
+    <ClInclude Include="..\Box2D\Collision\b2DynamicTree.h" />
+    <ClInclude Include="..\Box2D\Collision\b2TimeOfImpact.h" />
+    <ClInclude Include="..\Box2D\Collision\Shapes\b2ChainShape.h" />
+    <ClInclude Include="..\Box2D\Collision\Shapes\b2CircleShape.h" />
+    <ClInclude Include="..\Box2D\Collision\Shapes\b2EdgeShape.h" />
+    <ClInclude Include="..\Box2D\Collision\Shapes\b2PolygonShape.h" />
+    <ClInclude Include="..\Box2D\Collision\Shapes\b2Shape.h" />
+    <ClInclude Include="..\Box2D\Common\b2BlockAllocator.h" />
+    <ClInclude Include="..\Box2D\Common\b2Draw.h" />
+    <ClInclude Include="..\Box2D\Common\b2GrowableStack.h" />
+    <ClInclude Include="..\Box2D\Common\b2Math.h" />
+    <ClInclude Include="..\Box2D\Common\b2Settings.h" />
+    <ClInclude Include="..\Box2D\Common\b2StackAllocator.h" />
+    <ClInclude Include="..\Box2D\Common\b2Timer.h" />
+    <ClInclude Include="..\Box2D\Dynamics\b2Body.h" />
+    <ClInclude Include="..\Box2D\Dynamics\b2ContactManager.h" />
+    <ClInclude Include="..\Box2D\Dynamics\b2Fixture.h" />
+    <ClInclude Include="..\Box2D\Dynamics\b2Island.h" />
+    <ClInclude Include="..\Box2D\Dynamics\b2TimeStep.h" />
+    <ClInclude Include="..\Box2D\Dynamics\b2World.h" />
+    <ClInclude Include="..\Box2D\Dynamics\b2WorldCallbacks.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2CircleContact.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2Contact.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2ContactSolver.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2PolygonContact.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2DistanceJoint.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2FrictionJoint.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2GearJoint.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2Joint.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2MotorJoint.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2MouseJoint.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2PrismaticJoint.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2PulleyJoint.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2RevoluteJoint.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2RopeJoint.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2WeldJoint.h" />
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2WheelJoint.h" />
+    <ClInclude Include="..\Box2D\Rope\b2Rope.h" />
+    <ClInclude Include="Animation\Animation.h" />
+    <ClInclude Include="Animation\ImageNameLink.h" />
+    <ClInclude Include="Audio\Audio.h" />
+    <ClInclude Include="Audio\AudioManager.h" />
+    <ClInclude Include="AzulTime\AzulStopWatch.h" />
+    <ClInclude Include="AzulTime\AzulTime.h" />
+    <ClInclude Include="AzulTime\Timer.h" />
+    <ClInclude Include="AzulTime\TimerEvents\BangEvent.h" />
+    <ClInclude Include="AzulTime\TimerEvents\BirdDeath.h" />
+    <ClInclude Include="AzulTime\TimerEvents\GravityBox.h" />
+    <ClInclude Include="AzulTime\TimerEvents\InverseGravity.h" />
+    <ClInclude Include="AzulTime\TimerEvents\LevelLoader.h" />
+    <ClInclude Include="AzulTime\TimerEvents\NextLevelLoader.h" />
+    <ClInclude Include="AzulTime\TimerEvents\SmokeDeletion.h" />
+    <ClInclude Include="AzulTime\TimerEvents\TimerEvent.h" />
+    <ClInclude Include="AzulTime\TimerEvents\TrailCreation.h" />
+    <ClInclude Include="AzulTime\TimerMan.h" />
+    <ClInclude Include="Camera\Camera.h" />
+    <ClInclude Include="Camera\CameraMan.h" />
+    <ClInclude Include="Engine\DebugOut.h" />
+    <ClInclude Include="Engine\Engine.h" />
+    <ClInclude Include="Engine\LibrarySetup.h" />
+    <ClInclude Include="GameObject\Backgrounds\Background.h" />
+    <ClInclude Include="GameObject\Backgrounds\BackgroundFactory.h" />
+    <ClInclude Include="GameObject\Birds\BigBird.h" />
+    <ClInclude Include="GameObject\Birds\Bird.h" />
+    <ClInclude Include="GameObject\Birds\BirdFactory.h" />
+    <ClInclude Include="GameObject\Birds\BlueBird.h" />
+    <ClInclude Include="GameObject\Birds\Bomb.h" />
+    <ClInclude Include="GameObject\Birds\GreenBird.h" />
+    <ClInclude Include="GameObject\Birds\RedBird.h" />
+    <ClInclude Include="GameObject\Birds\WhiteBird.h" />
+    <ClInclude Include="GameObject\Birds\YellowBird.h" />
+    <ClInclude Include="GameObject\Effects\Effect.h" />
+    <ClInclude Include="GameObject\Effects\EffectFactory.h" />
+    <ClInclude Include="GameObject\GameObject.h" />
+    <ClInclude Include="GameObject\GameObject2D.h" />
+    <ClInclude Include="GameObject\GameObjectCharacteristics.h" />
+    <ClInclude Include="GameObject\GameObjectMan.h" />
+    <ClInclude Include="GameObject\GameSortBucket.h" />
+    <ClInclude Include="GameObject\Objects\CollisionObjectBox.h" />
+    <ClInclude Include="GameObject\Objects\CollisionObjectCircle.h" />
+    <ClInclude Include="GameObject\Objects\CollisionObjectTri.h" />
+    <ClInclude Include="GameObject\Objects\Egg.h" />
+    <ClInclude Include="GameObject\Objects\Gear.h" />
+    <ClInclude Include="GameObject\Objects\Glass.h" />
+    <ClInclude Include="GameObject\Objects\ObjectFactory.h" />
+    <ClInclude Include="GameObject\Objects\Platform.h" />
+    <ClInclude Include="GameObject\Objects\Rope.h" />
+    <ClInclude Include="GameObject\Objects\SensorBox.h" />
+    <ClInclude Include="GameObject\Objects\Stone.h" />
+    <ClInclude Include="GameObject\Objects\Wood.h" />
+    <ClInclude Include="GameObject\Pigs\CorporalPig.h" />
+    <ClInclude Include="GameObject\Pigs\ForemanPig.h" />
+    <ClInclude Include="GameObject\Pigs\KingPig.h" />
+    <ClInclude Include="GameObject\Pigs\MinionPig.h" />
+    <ClInclude Include="GameObject\Pigs\PigFactory.h" />
+    <ClInclude Include="GameObject\Sling\Sling.h" />
+    <ClInclude Include="GameObject\Sling\SlingFactory.h" />
+    <ClInclude Include="GameObject\Sling\SlingList.h" />
+    <ClInclude Include="GameObject\Sling\SlingQueue.h" />
+    <ClInclude Include="GameObject\Terrain\Terrain.h" />
+    <ClInclude Include="GameObject\Terrain\TerrainSegment.h" />
+    <ClInclude Include="GameObject\Tower\Tower.h" />
+    <ClInclude Include="GameObject\Tower\Tower1.h" />
+    <ClInclude Include="GameObject\Tower\Tower2.h" />
+    <ClInclude Include="GameObject\Tower\Tower3.h" />
+    <ClInclude Include="GameObject\Tower\TowerFactory.h" />
+    <ClInclude Include="Game\AzulHelper.h" />
+    <ClInclude Include="Game\EnumBase.h" />
+    <ClInclude Include="Game\Game.h" />
+    <ClInclude Include="Game\GameObjectName.h" />
+    <ClInclude Include="Game\ImageLoader.h" />
+    <ClInclude Include="Game\ImageName.h" />
+    <ClInclude Include="Game\PixelToMeter.h" />
+    <ClInclude Include="Game\ShaderLoader.h" />
+    <ClInclude Include="Game\ShaderName.h" />
+    <ClInclude Include="Game\TextureLoader.h" />
+    <ClInclude Include="Game\TextureName.h" />
+    <ClInclude Include="GraphicsObjects\GraphicsObject.h" />
+    <ClInclude Include="GraphicsObjects\GraphicsObject_Box.h" />
+    <ClInclude Include="GraphicsObjects\GraphicsObject_Circle.h" />
+    <ClInclude Include="GraphicsObjects\GraphicsObject_ColorByPosition.h" />
+    <ClInclude Include="GraphicsObjects\GraphicsObject_FlatTexture.h" />
+    <ClInclude Include="GraphicsObjects\GraphicsObject_Sprite.h" />
+    <ClInclude Include="GraphicsObjects\GraphicsObject_TextureLight.h" />
+    <ClInclude Include="GraphicsObjects\GraphicsObject_Tri.h" />
+    <ClInclude Include="GraphicsObjects\GraphicsObject_Wireframe.h" />
+    <ClInclude Include="GraphicsObjects\Visualizer.h" />
+    <ClInclude Include="Image\Color.h" />
+    <ClInclude Include="Image\Image.h" />
+    <ClInclude Include="Image\ImageMan.h" />
+    <ClInclude Include="Image\ImageNode.h" />
+    <ClInclude Include="Image\Rect.h" />
+    <ClInclude Include="Image\Vect2D.h" />
+    <ClInclude Include="Inputs\AABBQuery.h" />
+    <ClInclude Include="Inputs\DragInput.h" />
+    <ClInclude Include="Inputs\ImpulseInput.h" />
+    <ClInclude Include="Inputs\InputManager.h" />
+    <ClInclude Include="Inputs\InputSystem.h" />
+    <ClInclude Include="Inputs\Keyboard.h" />
+    <ClInclude Include="Inputs\LanderInput.h" />
+    <ClInclude Include="Inputs\LevelSelector.h" />
+    <ClInclude Include="Inputs\LineCollider.h" />
+    <ClInclude Include="Inputs\LineDynamicCollider.h" />
+    <ClInclude Include="Inputs\Mouse.h" />
+    <ClInclude Include="Inputs\RayCastQuery.h" />
+    <ClInclude Include="Inputs\SaltSalt.h" />
+    <ClInclude Include="Inputs\SlingDrag.h" />
+    <ClInclude Include="Inputs\TestLink.h" />
+    <ClInclude Include="Inputs\TowerControl.h" />
+    <ClInclude Include="MemTracker\Framework.h" />
+    <ClInclude Include="MemTracker\ProjectSettings.h" />
+    <ClInclude Include="Models\BoxModel.h" />
+    <ClInclude Include="Models\CircleModel.h" />
+    <ClInclude Include="Models\CubeModel.h" />
+    <ClInclude Include="Models\Model.h" />
+    <ClInclude Include="Models\ModelMan.h" />
+    <ClInclude Include="Models\SpriteModel.h" />
+    <ClInclude Include="Models\SpriteVBO.h" />
+    <ClInclude Include="Models\TriModel.h" />
+    <ClInclude Include="ParticleSystem\ABStack.h" />
+    <ClInclude Include="ParticleSystem\CircleCollection.h" />
+    <ClInclude Include="ParticleSystem\CircleParticles.h" />
+    <ClInclude Include="ParticleSystem\ExplosionFeathers.h" />
+    <ClInclude Include="ParticleSystem\FeatherBlack.h" />
+    <ClInclude Include="ParticleSystem\FeatherBlue.h" />
+    <ClInclude Include="ParticleSystem\FeatherGreen.h" />
+    <ClInclude Include="ParticleSystem\FeatherRed.h" />
+    <ClInclude Include="ParticleSystem\FeatherWhite.h" />
+    <ClInclude Include="ParticleSystem\FeatherYellow.h" />
+    <ClInclude Include="ParticleSystem\ManagedPool.h" />
+    <ClInclude Include="ParticleSystem\ProjectedTrajectory.h" />
+    <ClInclude Include="ParticleSystem\Projector.h" />
+    <ClInclude Include="ParticleSystem\ProjectorCollection.h" />
+    <ClInclude Include="ParticleSystem\TrailCollection.h" />
+    <ClInclude Include="ParticleSystem\TrailSmoke.h" />
+    <ClInclude Include="Physics\AABBRayCast.h" />
+    <ClInclude Include="Physics\AngryContactListener.h" />
+    <ClInclude Include="Physics\CollisionControl.h" />
+    <ClInclude Include="Physics\ContactAction.h" />
+    <ClInclude Include="Physics\FilterCategory.h" />
+    <ClInclude Include="Physics\JointDeletion.h" />
+    <ClInclude Include="Physics\LineRayCast.h" />
+    <ClInclude Include="Physics\PhysicsManager.h" />
+    <ClInclude Include="Physics\PhysicsObject.h" />
+    <ClInclude Include="Scene\Levels\EighthLevel.h" />
+    <ClInclude Include="Scene\Levels\FifthLevel.h" />
+    <ClInclude Include="Scene\Levels\FirstLevel.h" />
+    <ClInclude Include="Scene\Levels\FourthLevel.h" />
+    <ClInclude Include="Scene\Levels\LoadLevel.h" />
+    <ClInclude Include="Scene\Levels\SecondLevel.h" />
+    <ClInclude Include="Scene\Levels\SeventhLevel.h" />
+    <ClInclude Include="Scene\Levels\SixthLevel.h" />
+    <ClInclude Include="Scene\Levels\ThirdLevel.h" />
+    <ClInclude Include="Scene\Scene.h" />
+    <ClInclude Include="Scene\SceneLink.h" />
+    <ClInclude Include="Scene\SceneManager.h" />
+    <ClInclude Include="Shaders\ShaderMan.h" />
+    <ClInclude Include="Shaders\ShaderNode.h" />
+    <ClInclude Include="Shaders\Shaders.h" />
+    <ClInclude Include="Texture\Texture.h" />
+    <ClInclude Include="Texture\TextureMan.h" />
+    <ClInclude Include="Texture\TextureNode.h" />
+    <ClInclude Include="Texture\TextureTGA.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Box2D.cd" />
+    <None Include="Debug\ikpMP3.dll" />
+    <None Include="Debug\irrKlang.dll" />
+    <None Include="GameObject.cd" />
+    <None Include="Shaders\colorRender.fs.glsl" />
+    <None Include="Shaders\colorRender.vs.glsl" />
+    <None Include="Shaders\spriteLineRender.fs.glsl" />
+    <None Include="Shaders\spriteLineRender.vs.glsl" />
+    <None Include="Shaders\spriteRender.fs.glsl" />
+    <None Include="Shaders\spriteRender.vs.glsl" />
+    <None Include="Shaders\spriteTriRender.fs.glsl" />
+    <None Include="Shaders\spriteTriRender.vs.glsl" />
+    <None Include="Shaders\texturePointLightDiff.fs.glsl" />
+    <None Include="Shaders\texturePointLightDiff.vs.glsl" />
+    <None Include="Shaders\textureRender.fs.glsl" />
+    <None Include="Shaders\textureRender.vs.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\dist\File\lib\File_Debug.lib" />
+    <Library Include="..\dist\GLFW\lib\GLFW_Debug.lib" />
+    <Library Include="..\dist\Math\lib\MathEngine_Debug.lib" />
+    <Library Include="..\dist\PCSTree\lib\PCSTreeDebug.lib" />
+    <Library Include="..\dist\SB6\lib\sb6_Debug.lib" />
+    <Library Include="Debug\irrKlang.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\AngryBirdBackground.tga" />
+    <Image Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\glassBlocks.tga" />
+    <Image Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\slingV2.tga" />
+    <Image Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\stoneBlocks.tga" />
+    <Image Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\unsorted.tga" />
+    <Image Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\woodBlocks.tga" />
+    <Image Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\woodPlatform.tga" />
+    <Image Include="..\..\..\..\..\reference\reference\Asset\Azul\Aliens.tga" />
+    <Image Include="..\..\..\..\..\reference\reference\Asset\Azul\Stitch.tga" />
+    <Image Include="..\..\..\..\..\reference\reference\Asset\Flame.tga" />
+    <Image Include="..\..\..\..\..\reference\reference\Asset\Gears\Gears.tga" />
+    <Image Include="MyAssets\Levels.tga" />
+    <Image Include="MyAssets\Space.tga" />
+    <Image Include="MyAssets\SpaceLevel.tga" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\accordion_break.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\accordion_empty_pull.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\accordion_empty_push.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\alarm_egg_stolen_01.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\alarm_egg_stolen_02.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\alarm_egg_stolen_03.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\balloon_inflate_01.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\balloon_inflate_02.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\balloon_magic_pop.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\balloon_pop.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\ball_bounce.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bellows_01.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bellows_02.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bellows_03.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bigbrother_awakens.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bigbrother_fly.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bigbrother_select.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bigbrother_yell.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\big_bird.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 01 collision a1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 01 collision a1_low.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 01 collision a2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 01 collision a2_low.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 01 collision a3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 01 collision a3_low.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 01 collision a4.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 01 collision a4_low.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 01 flying.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 01 select.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 02 collision a1.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 02 collision a1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 02 collision a2.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 02 collision a2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 02 collision a3.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 02 collision a3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 02 collision a4.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 02 collision a4.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 02 collision a5.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 02 collision a5.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 02 flying.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 02 select.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 03 collision a1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 03 collision a2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 03 collision a3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 03 collision a4.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 03 collision a5.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 03 flying.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 03 select.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 04 collision a1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 04 collision a2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 04 collision a3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 04 collision a4.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 04 flying.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 04 select.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 05 collision a1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 05 collision a2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 05 collision a3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 05 collision a4.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 05 collision a5.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 05 flying.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 05 select.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird destroyed.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird misc a1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird misc a10.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird misc a11.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird misc a12.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird misc a2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird misc a3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird misc a4.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird misc a5.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird misc a6.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird misc a7.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird misc a8.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird misc a9.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird next military a1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird next military a2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird next military a3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird pushing egg out.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird shot-a1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird shot-a2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird shot-a3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\birds_bomb_shockwave_01.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\birds_bomb_shockwave_02.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird_06_flying.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird_red_charge_01.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird_red_charge_02.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird_red_charge_03.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\birthday_cake1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\birthday_cake2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bmajor_left.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bmajor_right.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\boomerang_activate.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\boomerang_select.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\boomerang_swish.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\button_radio.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\cannon_shot_01.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\cannon_shot_02.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\cminor_left.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\cminor_right.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\dismajor_left.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\dismajor_right.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\earthquake.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\fmajor_left.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\fmajor_right.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\gamescorescreen_score_count_loop.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Globe_Bird_Death_remove_1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Globe_Bird_Hit_1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Globe_Bird_Hit_2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Globe_Bird_Hit_3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Globe_Bird_Hit_4.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Globe_Bird_idle_01.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Globe_Bird_idle_02.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Globe_Bird_idle_03.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Globe_Bird_Launch_3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Globe_Bird_Selection_1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Globe_Bird_Special_Activation_1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Globe_Bird_Special_Activation_2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Globe_Bird_Special_Activation_3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\gminor_left.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\gminor_right.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\goldenegg.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\helicopter_rotor.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\highscore.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\ice light collision a1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\ice light collision a2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\ice light collision a3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\ice light collision a4.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\ice light collision a5.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\ice light collision a6.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\ice light collision a7.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\ice light collision a8.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\jewel_break_01.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\jewel_break_01b.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\jewel_break_02.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\jewel_break_02b.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\jewel_break_03.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\jewel_break_03b.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\laser_sight.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\level clear military a1.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\level clear military a2.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\level failed piglets a1.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\level failed piglets a2.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\level start military a1.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\level start military a2.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\light damage a1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\light damage a2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\light damage a3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\light destroyed a1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\light destroyed a2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\light destroyed a3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\light rolling.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Lightning01.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Lightning02.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Lightning03.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Lightning04.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\menu back.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\menu confirm.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\menu select.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_damaged_01.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_damaged_02.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_damaged_03.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_damaged_04.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_damaged_05.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_destroyed_01.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_destroyed_02.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_destroyed_03.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_destroyed_04.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_hit_01.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_hit_02.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_hit_03.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_hit_04.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_hit_05.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_hit_06.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_hit_07.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_hit_08.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\mightyeagle.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\mightymouse.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\mightymouse_select.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\mighty_eagle_bounce.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\mighty_eagle_fly.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piano-c.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piano-cis.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piano-d.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piano-dis.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piano-e.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piano-f.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piano-fis.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piano-g.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette collision a1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette collision a2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette collision a3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette collision a4.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette collision a5.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette collision a6.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette collision a7.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette collision a8.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette damage a1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette damage a2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette damage a3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette damage a4.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette damage a5.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette damage a6.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette damage a7.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette damage a8.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette destroyed.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette oink a1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette oink a10.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette oink a11.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette oink a12.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette oink a2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette oink a3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette oink a4.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette oink a5.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette oink a6.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette oink a7.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette oink a8.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette oink a9.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette oink story.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pigs_electricity_zap_01.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pigs_electricity_zap_02.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pigs_electricity_zap_03.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pigs_electricity_zap_04.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pigs_electrocuted_01.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pigs_electrocuted_02.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pigs_electrocuted_03.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pigs_electrocuted_04.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pigs_electrocuted_05.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pigs_potion_bubbles_01.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pigs_potion_deflate_01.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pigs_potion_inflate_01.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pigs_potion_split_01.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_bd.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_hi-hat_1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_hi-hat_2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_singing_1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_singing_2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_singing_3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_singing_4.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_singing_5.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_singing_6.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_singing_7.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_singing_8.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_snare_1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_snare_2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_snare_3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_snare_4.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_activate_01.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_activate_02.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_activate_03.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_collision_01.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_collision_02.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_collision_03.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_collision_04.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_collision_05.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_launch_01.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_launch_02.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_launch_03.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_special_01.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_special_02.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_special_03.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\plunger_collision_01.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\plunger_collision_02.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\plunger_collision_03.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\plunger_collision_04.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\plunger_destroyed_01.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\plunger_destroyed_02.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\powerup_awarded.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\powerup_awarded2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\powerup_intro.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\propeller.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\redbird_yell01.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\redbird_yell02.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\redbird_yell03.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\rock collision a1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\rock collision a2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\rock collision a3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\rock collision a4.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\rock collision a5.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\rock damage a1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\rock damage a2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\rock damage a3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\rock destroyed a1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\rock destroyed a2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\rock destroyed a3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\rock rolling.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\rocket_full.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\sardine_can_physics_a2.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\sardine_can_shot.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\slingshot streched.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\slot_1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\slot_2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\slot_3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\slot_machine.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\special boost.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\special egg explosion.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\special egg.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\special group.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\stalaktite_break_01.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\stalaktite_break_02.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\stalaktite_break_03.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\star_1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\star_2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\star_3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\star_collect.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\suction_loop_01.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\suction_start_01.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\super_shot.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\super_slingshot.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\target_change_01.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\target_lock_01.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\title_theme.mp3" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\tnt box explodes.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\trampoline.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\vial_break_01.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\vial_break_02.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\vial_break_03.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\vial_break_04.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\wood collision a1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\wood collision a2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\wood collision a3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\wood collision a4.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\wood collision a5.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\wood collision a6.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\wood damage a1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\wood damage a2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\wood damage a3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\wood destroyed a1.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\wood destroyed a2.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\wood destroyed a3.wav" />
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\wood rolling.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

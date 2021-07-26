@@ -1,0 +1,2515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Box2D\Rope\b2Rope.cpp">
+      <Filter>Box2D\Rope</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2CircleContact.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2Contact.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2ContactSolver.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2PolygonContact.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2DistanceJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2FrictionJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2GearJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2Joint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2MotorJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2MouseJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2PrismaticJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2PulleyJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2RevoluteJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2RopeJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2WeldJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2WheelJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\b2Body.cpp">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\b2ContactManager.cpp">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\b2Fixture.cpp">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\b2Island.cpp">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\b2World.cpp">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\b2WorldCallbacks.cpp">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Common\b2BlockAllocator.cpp">
+      <Filter>Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Common\b2Draw.cpp">
+      <Filter>Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Common\b2Math.cpp">
+      <Filter>Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Common\b2Settings.cpp">
+      <Filter>Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Common\b2StackAllocator.cpp">
+      <Filter>Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Common\b2Timer.cpp">
+      <Filter>Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\Shapes\b2ChainShape.cpp">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\Shapes\b2CircleShape.cpp">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\Shapes\b2EdgeShape.cpp">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\Shapes\b2PolygonShape.cpp">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\b2BroadPhase.cpp">
+      <Filter>Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\b2CollideCircle.cpp">
+      <Filter>Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\b2CollideEdge.cpp">
+      <Filter>Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\b2CollidePolygon.cpp">
+      <Filter>Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\b2Collision.cpp">
+      <Filter>Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\b2Distance.cpp">
+      <Filter>Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\b2DynamicTree.cpp">
+      <Filter>Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\b2TimeOfImpact.cpp">
+      <Filter>Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\CameraMan.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\DebugOut.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\GameObjectMan.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\GameSortBucket.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObjects\GraphicsObject_ColorByPosition.cpp">
+      <Filter>GraphicsObjects\colorbyposition</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObjects\GraphicsObject_FlatTexture.cpp">
+      <Filter>GraphicsObjects\flattexture</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObjects\GraphcisObject_Box.cpp">
+      <Filter>GraphicsObjects\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObjects\GraphicsObject_Circle.cpp">
+      <Filter>GraphicsObjects\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObjects\GraphicsObject_Sprite.cpp">
+      <Filter>GraphicsObjects\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObjects\GraphicsObject_Tri.cpp">
+      <Filter>GraphicsObjects\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObjects\GraphicsObject_TextureLight.cpp">
+      <Filter>GraphicsObjects\textureLight</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObjects\GraphicsObject_Wireframe.cpp">
+      <Filter>GraphicsObjects\wireframe</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObjects\GraphicsObject.cpp">
+      <Filter>GraphicsObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\Color.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\Image.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\ImageMan.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\ImageNode.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\Rect.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\Vect2D.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Inputs\Keyboard.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Inputs\Mouse.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\BoxModel.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\CircleModel.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\CubeModel.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Model.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\ModelMan.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\SpriteModel.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\TriModel.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\PhysicsManager.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\PhysicsObject.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ShaderMan.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ShaderNode.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Shaders.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture\TextureTGA.cpp">
+      <Filter>Texture\TGA</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture\Texture.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture\TextureMan.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture\TextureNode.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="AzulTime\AzulStopWatch.cpp">
+      <Filter>AzulTime</Filter>
+    </ClCompile>
+    <ClCompile Include="AzulTime\AzulTime.cpp">
+      <Filter>AzulTime</Filter>
+    </ClCompile>
+    <ClCompile Include="AzulTime\Timer.cpp">
+      <Filter>AzulTime</Filter>
+    </ClCompile>
+    <ClCompile Include="AzulTime\Timer_win32.cpp">
+      <Filter>AzulTime</Filter>
+    </ClCompile>
+    <ClCompile Include="AzulTime\TimerMan.cpp">
+      <Filter>AzulTime</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\AngryContactListener.cpp">
+      <Filter>Physics\ContactListeners</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\GameObject2D.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Birds\BirdFactory.cpp">
+      <Filter>GameObject\Birds</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Birds\BigBird.cpp">
+      <Filter>GameObject\Birds</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Birds\BlueBird.cpp">
+      <Filter>GameObject\Birds</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Birds\Bomb.cpp">
+      <Filter>GameObject\Birds</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Birds\GreenBird.cpp">
+      <Filter>GameObject\Birds</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Birds\RedBird.cpp">
+      <Filter>GameObject\Birds</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Birds\WhiteBird.cpp">
+      <Filter>GameObject\Birds</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Birds\YellowBird.cpp">
+      <Filter>GameObject\Birds</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Pigs\CorporalPig.cpp">
+      <Filter>GameObject\Pigs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Pigs\ForemanPig.cpp">
+      <Filter>GameObject\Pigs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Pigs\KingPig.cpp">
+      <Filter>GameObject\Pigs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Pigs\MinionPig.cpp">
+      <Filter>GameObject\Pigs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Pigs\PigFactory.cpp">
+      <Filter>GameObject\Pigs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Objects\Glass.cpp">
+      <Filter>GameObject\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Objects\ObjectFactory.cpp">
+      <Filter>GameObject\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Objects\Stone.cpp">
+      <Filter>GameObject\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Objects\Wood.cpp">
+      <Filter>GameObject\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Objects\CollisionObjectBox.cpp">
+      <Filter>GameObject\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Objects\CollisionObjectCircle.cpp">
+      <Filter>GameObject\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Backgrounds\Background.cpp">
+      <Filter>GameObject\Backgrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Backgrounds\BackgroundFactory.cpp">
+      <Filter>GameObject\Backgrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Effects\Effect.cpp">
+      <Filter>GameObject\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Effects\EffectFactory.cpp">
+      <Filter>GameObject\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Inputs\InputManager.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Inputs\DragInput.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Inputs\ImpulseInput.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Inputs\InputSystem.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Inputs\LanderInput.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\Audio.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\AudioManager.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Scene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneManager.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Tower\Tower.cpp">
+      <Filter>GameObject\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="Inputs\TowerControl.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Tower\TowerFactory.cpp">
+      <Filter>GameObject\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="Inputs\LevelSelector.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Sling\SlingQueue.cpp">
+      <Filter>GameObject\Sling</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Sling\SlingList.cpp">
+      <Filter>GameObject\Sling</Filter>
+    </ClCompile>
+    <ClCompile Include="Inputs\SlingDrag.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Sling\Sling.cpp">
+      <Filter>GameObject\Sling</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Sling\SlingFactory.cpp">
+      <Filter>GameObject\Sling</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\Animation.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AzulTime\TimerEvents\TimerEvent.cpp">
+      <Filter>AzulTime\TimerEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="AzulTime\TimerEvents\BangEvent.cpp">
+      <Filter>AzulTime\TimerEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="AzulTime\TimerEvents\BirdDeath.cpp">
+      <Filter>AzulTime\TimerEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Tower\Tower2.cpp">
+      <Filter>GameObject\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Tower\Tower1.cpp">
+      <Filter>GameObject\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="AzulTime\TimerEvents\SmokeDeletion.cpp">
+      <Filter>AzulTime\TimerEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Levels\FirstLevel.cpp">
+      <Filter>Scenes\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Levels\FourthLevel.cpp">
+      <Filter>Scenes\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Levels\SecondLevel.cpp">
+      <Filter>Scenes\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Levels\ThirdLevel.cpp">
+      <Filter>Scenes\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObjects\Visualizer.cpp">
+      <Filter>GraphicsObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Levels\FifthLevel.cpp">
+      <Filter>Scenes\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Tower\Tower3.cpp">
+      <Filter>GameObject\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Levels\SixthLevel.cpp">
+      <Filter>Scenes\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Terrain\Terrain.cpp">
+      <Filter>GameObject\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Terrain\TerrainSegment.cpp">
+      <Filter>GameObject\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Objects\Gear.cpp">
+      <Filter>GameObject\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Levels\SeventhLevel.cpp">
+      <Filter>Scenes\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Objects\CollisionObjectTri.cpp">
+      <Filter>GameObject\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Birds\Bird.cpp">
+      <Filter>GameObject\Birds</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Levels\EighthLevel.cpp">
+      <Filter>Scenes\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\CollisionControl.cpp">
+      <Filter>Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\ContactAction.cpp">
+      <Filter>Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\LineRayCast.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Inputs\RayCastQuery.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Objects\Rope.cpp">
+      <Filter>GameObject\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\AABBRayCast.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Inputs\AABBQuery.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem\ABStack.cpp">
+      <Filter>ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem\ManagedPool.cpp">
+      <Filter>ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="AzulTime\TimerEvents\TrailCreation.cpp">
+      <Filter>AzulTime\TimerEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem\FeatherYellow.cpp">
+      <Filter>ParticleSystem\Particles\Feathers\YellowFeather</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem\FeatherRed.cpp">
+      <Filter>ParticleSystem\Particles\Feathers\RedFeather</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem\FeatherBlack.cpp">
+      <Filter>ParticleSystem\Particles\Feathers\BlackFeather</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem\FeatherBlue.cpp">
+      <Filter>ParticleSystem\Particles\Feathers\BlueFeather</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem\FeatherGreen.cpp">
+      <Filter>ParticleSystem\Particles\Feathers\GreenFeather</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem\FeatherWhite.cpp">
+      <Filter>ParticleSystem\Particles\Feathers\WhiteFeather</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem\ExplosionFeathers.cpp">
+      <Filter>ParticleSystem\Particles\Feathers</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem\TrailCollection.cpp">
+      <Filter>ParticleSystem\Particles\TrailSmoke</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem\TrailSmoke.cpp">
+      <Filter>ParticleSystem\Particles\TrailSmoke</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem\ProjectedTrajectory.cpp">
+      <Filter>ParticleSystem\Particles\ProjectedTrajectory</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem\Projector.cpp">
+      <Filter>ParticleSystem\Particles\ProjectedTrajectory</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem\ProjectorCollection.cpp">
+      <Filter>ParticleSystem\Particles\ProjectedTrajectory</Filter>
+    </ClCompile>
+    <ClCompile Include="Inputs\LineCollider.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem\CircleCollection.cpp">
+      <Filter>ParticleSystem\Particles\CircleParticles</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem\CircleParticles.cpp">
+      <Filter>ParticleSystem\Particles\CircleParticles</Filter>
+    </ClCompile>
+    <ClCompile Include="Inputs\SaltSalt.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Inputs\LineDynamicCollider.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Objects\Egg.cpp">
+      <Filter>GameObject\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Levels\LoadLevel.cpp">
+      <Filter>Scenes\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="AzulTime\TimerEvents\LevelLoader.cpp">
+      <Filter>AzulTime\TimerEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="AzulTime\TimerEvents\NextLevelLoader.cpp">
+      <Filter>AzulTime\TimerEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="AzulTime\TimerEvents\GravityBox.cpp">
+      <Filter>AzulTime\TimerEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="AzulTime\TimerEvents\InverseGravity.cpp">
+      <Filter>AzulTime\TimerEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Objects\SensorBox.cpp">
+      <Filter>GameObject\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Objects\Platform.cpp">
+      <Filter>GameObject\Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GraphicsObjects">
+      <UniqueIdentifier>{93a4850e-23b0-4751-919a-96abf0093cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{3159976d-7987-4883-a95f-6508fc51ad26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{9abb5a24-81e4-4f47-a978-4466abc83014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{1a86f58b-730f-4ade-9ef5-a03955cc875d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsObjects\wireframe">
+      <UniqueIdentifier>{edb264bb-13cd-4b8d-b809-ab411085c148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsObjects\colorbyposition">
+      <UniqueIdentifier>{8235b035-db60-41a6-8f5e-1de62e225a12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsObjects\flattexture">
+      <UniqueIdentifier>{e80262e2-0161-4071-b26e-d6bc78c8e0c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{d1cdfaf2-940b-4c46-9007-5d89e201e7cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{15363e7a-295c-4bb1-920a-3bdaf0aa931b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsObjects\textureLight">
+      <UniqueIdentifier>{afe14a77-dea2-4ef7-8fa4-f63c952c280f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs">
+      <UniqueIdentifier>{1392bc0c-ded2-42a7-9ec1-333be4dadedd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image">
+      <UniqueIdentifier>{7dba583c-bcaf-425f-9e10-4d5717a93ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsObjects\sprite">
+      <UniqueIdentifier>{5d9a2ad9-1880-4d9f-821a-e1d2ce4371f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture\TGA">
+      <UniqueIdentifier>{dacb1fc1-b34f-4bd5-aeb7-4312131d726f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{8fce8581-cbf4-4032-aae7-6d5fb5877a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{f9b3370b-9898-4201-9f5e-170bf279cea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Names">
+      <UniqueIdentifier>{09956f6d-f840-4aab-ba04-53f14e534213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inputs">
+      <UniqueIdentifier>{11a82bb0-489a-419a-b545-6b83a9433e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MemTracker">
+      <UniqueIdentifier>{7ce6bee4-3fbc-4ba5-b4b2-1ba0261811f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AzulTime">
+      <UniqueIdentifier>{1f9f9fb1-fc42-402c-a423-a551f7de14d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Box2D">
+      <UniqueIdentifier>{1b003736-07bf-40c8-ae45-3d650e7dfd41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Box2D\Collision">
+      <UniqueIdentifier>{ad9976fb-4b60-4151-b768-e8333cef4719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Box2D\Common">
+      <UniqueIdentifier>{c32061ed-ce95-44b0-8abe-f3314c0746ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Box2D\Dynamics">
+      <UniqueIdentifier>{45522664-eab3-4696-8f8e-fa36dc0a3fa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Box2D\Rope">
+      <UniqueIdentifier>{3e0a1e0d-bde2-42d3-8481-07e33ef3bf7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Box2D\Collision\Shapes">
+      <UniqueIdentifier>{64360a6d-35d5-4065-9fbc-f13244e0f486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Box2D\Dynamics\Contacts">
+      <UniqueIdentifier>{f088056a-2453-4d68-97f2-90b811832950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Box2D\Dynamics\Joints">
+      <UniqueIdentifier>{13d54093-c661-4fa6-b1db-b05e24654fbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{496e96fc-43f7-4cb7-98d4-6fbb7629d125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\AngryBirds">
+      <UniqueIdentifier>{e649f142-2606-44a5-9771-39686db8fd5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Azul">
+      <UniqueIdentifier>{d5a5c50e-cc26-4bdb-970a-383cf552f97b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Gears">
+      <UniqueIdentifier>{5d7b5292-6e6e-4b01-bd96-770f8f909c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\AngryBirds\Audio">
+      <UniqueIdentifier>{fe2afe4a-e6e1-43ab-a875-8c80952b069f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Loaders">
+      <UniqueIdentifier>{96d7c378-1436-4187-9cb0-a048ca877bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{c078ed42-a3e3-488b-b8db-49387c3941da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{fb8e9795-b80e-401a-8308-b55429415fb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\ContactListeners">
+      <UniqueIdentifier>{a118dc4d-bc4c-4951-9726-ccd7cc5faf2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Birds">
+      <UniqueIdentifier>{1dffeb0a-3a92-46bc-ad4c-fa11bc83448e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Pigs">
+      <UniqueIdentifier>{7ffc1b11-3582-4ef0-8ee6-83a528249c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Objects">
+      <UniqueIdentifier>{edd3a924-3bdd-42bc-900d-b03864cba58c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Backgrounds">
+      <UniqueIdentifier>{7c2fcf0d-6c97-40da-960f-42645ee0da4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Effects">
+      <UniqueIdentifier>{098636f1-1c82-4900-be8d-adc8202ec78f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Audio">
+      <UniqueIdentifier>{dce4d173-0e96-445f-bf63-eee601dfe2e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{fb7e5530-905a-4144-8771-bf0e7b2b4594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Tower">
+      <UniqueIdentifier>{711e18e5-b53f-4ff1-9241-8c5ed617c56a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Sling">
+      <UniqueIdentifier>{42bce822-9238-4567-b75e-fb8f58601b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{baafcd96-c5fc-4d15-9ff5-0867b08160a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AzulTime\TimerEvents">
+      <UniqueIdentifier>{bb6adc66-9040-465e-9a69-9f115f712bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Levels">
+      <UniqueIdentifier>{935a1193-ec47-4264-95da-71f5b2a709ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Terrain">
+      <UniqueIdentifier>{b7352e30-a40a-47e7-8411-857d903342c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Collision">
+      <UniqueIdentifier>{110d1259-75af-41cd-9b0e-92cc9077a589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParticleSystem">
+      <UniqueIdentifier>{feddc54f-78da-46f6-b9e7-6298c1b9502c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParticleSystem\Particles">
+      <UniqueIdentifier>{5431b54b-5827-45f7-9962-49f50d3e5a49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParticleSystem\Particles\Feathers">
+      <UniqueIdentifier>{e06a7b5e-31b2-4ee7-8d72-6e8c754962db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParticleSystem\Particles\Feathers\BlackFeather">
+      <UniqueIdentifier>{f84befaa-20d4-489a-92f5-e78c565bc7a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParticleSystem\Particles\Feathers\BlueFeather">
+      <UniqueIdentifier>{2dbc7bdf-9476-4b9a-9073-065c59c0b3c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParticleSystem\Particles\Feathers\GreenFeather">
+      <UniqueIdentifier>{81e10d46-4e59-4606-ba09-ccdb893d201b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParticleSystem\Particles\Feathers\WhiteFeather">
+      <UniqueIdentifier>{87be2cc5-1afd-4631-a880-ba10e206b2db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParticleSystem\Particles\Feathers\RedFeather">
+      <UniqueIdentifier>{736c63c4-c4b8-4192-92e5-a234e9878075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParticleSystem\Particles\Feathers\YellowFeather">
+      <UniqueIdentifier>{6bfe091f-88a4-4e64-be75-936a9182947d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParticleSystem\Particles\TrailSmoke">
+      <UniqueIdentifier>{3620c3ee-82c6-4fd7-acc6-57a5a6563343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParticleSystem\Particles\ProjectedTrajectory">
+      <UniqueIdentifier>{f4b18b88-17e1-4d47-812e-6742ce855ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParticleSystem\Particles\CircleParticles">
+      <UniqueIdentifier>{522d6055-73d7-4e05-b949-f3015c3807fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MemTracker\Framework.h">
+      <Filter>MemTracker</Filter>
+    </ClInclude>
+    <ClInclude Include="MemTracker\ProjectSettings.h">
+      <Filter>MemTracker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Box2D.h">
+      <Filter>Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Rope\b2Rope.h">
+      <Filter>Box2D\Rope</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2CircleContact.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2Contact.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2ContactSolver.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2PolygonContact.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2DistanceJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2FrictionJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2GearJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2Joint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2MotorJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2MouseJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2PrismaticJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2PulleyJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2RevoluteJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2RopeJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2WeldJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2WheelJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\b2Body.h">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\b2ContactManager.h">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\b2Fixture.h">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\b2Island.h">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\b2TimeStep.h">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\b2World.h">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\b2WorldCallbacks.h">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Common\b2BlockAllocator.h">
+      <Filter>Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Common\b2Draw.h">
+      <Filter>Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Common\b2GrowableStack.h">
+      <Filter>Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Common\b2Math.h">
+      <Filter>Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Common\b2Settings.h">
+      <Filter>Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Common\b2StackAllocator.h">
+      <Filter>Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Common\b2Timer.h">
+      <Filter>Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\Shapes\b2ChainShape.h">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\Shapes\b2CircleShape.h">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\Shapes\b2EdgeShape.h">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\Shapes\b2PolygonShape.h">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\Shapes\b2Shape.h">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\b2BroadPhase.h">
+      <Filter>Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\b2Collision.h">
+      <Filter>Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\b2Distance.h">
+      <Filter>Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\b2DynamicTree.h">
+      <Filter>Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\b2TimeOfImpact.h">
+      <Filter>Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\CameraMan.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\DebugOut.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\LibrarySetup.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ImageLoader.h">
+      <Filter>Game\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ShaderLoader.h">
+      <Filter>Game\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TextureLoader.h">
+      <Filter>Game\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\EnumBase.h">
+      <Filter>Game\Names</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjectName.h">
+      <Filter>Game\Names</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ImageName.h">
+      <Filter>Game\Names</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ShaderName.h">
+      <Filter>Game\Names</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TextureName.h">
+      <Filter>Game\Names</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\AzulHelper.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PixelToMeter.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\GameObjectMan.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\GameSortBucket.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObjects\GraphicsObject_ColorByPosition.h">
+      <Filter>GraphicsObjects\colorbyposition</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObjects\GraphicsObject_FlatTexture.h">
+      <Filter>GraphicsObjects\flattexture</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObjects\GraphicsObject_Box.h">
+      <Filter>GraphicsObjects\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObjects\GraphicsObject_Circle.h">
+      <Filter>GraphicsObjects\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObjects\GraphicsObject_Sprite.h">
+      <Filter>GraphicsObjects\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObjects\GraphicsObject_Tri.h">
+      <Filter>GraphicsObjects\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObjects\GraphicsObject_TextureLight.h">
+      <Filter>GraphicsObjects\textureLight</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObjects\GraphicsObject_Wireframe.h">
+      <Filter>GraphicsObjects\wireframe</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObjects\GraphicsObject.h">
+      <Filter>GraphicsObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\Color.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\Image.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\ImageMan.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\ImageNode.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\Rect.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\Vect2D.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs\Keyboard.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs\Mouse.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\BoxModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\CircleModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\CubeModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Model.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\ModelMan.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\SpriteModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\SpriteVBO.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\TriModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\PhysicsManager.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\PhysicsObject.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ShaderMan.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ShaderNode.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Shaders.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture\TextureTGA.h">
+      <Filter>Texture\TGA</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture\Texture.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture\TextureMan.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture\TextureNode.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="AzulTime\AzulStopWatch.h">
+      <Filter>AzulTime</Filter>
+    </ClInclude>
+    <ClInclude Include="AzulTime\AzulTime.h">
+      <Filter>AzulTime</Filter>
+    </ClInclude>
+    <ClInclude Include="AzulTime\Timer.h">
+      <Filter>AzulTime</Filter>
+    </ClInclude>
+    <ClInclude Include="AzulTime\TimerMan.h">
+      <Filter>AzulTime</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\AngryContactListener.h">
+      <Filter>Physics\ContactListeners</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\FilterCategory.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\GameObject2D.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Birds\BirdFactory.h">
+      <Filter>GameObject\Birds</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Birds\BigBird.h">
+      <Filter>GameObject\Birds</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Birds\BlueBird.h">
+      <Filter>GameObject\Birds</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Birds\Bomb.h">
+      <Filter>GameObject\Birds</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Birds\GreenBird.h">
+      <Filter>GameObject\Birds</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Birds\RedBird.h">
+      <Filter>GameObject\Birds</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Birds\WhiteBird.h">
+      <Filter>GameObject\Birds</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Birds\YellowBird.h">
+      <Filter>GameObject\Birds</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Pigs\CorporalPig.h">
+      <Filter>GameObject\Pigs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Pigs\ForemanPig.h">
+      <Filter>GameObject\Pigs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Pigs\KingPig.h">
+      <Filter>GameObject\Pigs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Pigs\MinionPig.h">
+      <Filter>GameObject\Pigs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Pigs\PigFactory.h">
+      <Filter>GameObject\Pigs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Objects\Glass.h">
+      <Filter>GameObject\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Objects\ObjectFactory.h">
+      <Filter>GameObject\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Objects\Stone.h">
+      <Filter>GameObject\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Objects\Wood.h">
+      <Filter>GameObject\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Objects\CollisionObjectBox.h">
+      <Filter>GameObject\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Objects\CollisionObjectCircle.h">
+      <Filter>GameObject\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Backgrounds\Background.h">
+      <Filter>GameObject\Backgrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Backgrounds\BackgroundFactory.h">
+      <Filter>GameObject\Backgrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Effects\Effect.h">
+      <Filter>GameObject\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Effects\EffectFactory.h">
+      <Filter>GameObject\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs\InputManager.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs\TestLink.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs\DragInput.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs\ImpulseInput.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs\InputSystem.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs\LanderInput.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\Audio.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\AudioManager.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Scene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneManager.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Tower\Tower.h">
+      <Filter>GameObject\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs\TowerControl.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Tower\TowerFactory.h">
+      <Filter>GameObject\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs\LevelSelector.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneLink.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Sling\SlingQueue.h">
+      <Filter>GameObject\Sling</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Sling\SlingList.h">
+      <Filter>GameObject\Sling</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs\SlingDrag.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Sling\Sling.h">
+      <Filter>GameObject\Sling</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Sling\SlingFactory.h">
+      <Filter>GameObject\Sling</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\Animation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\ImageNameLink.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AzulTime\TimerEvents\TimerEvent.h">
+      <Filter>AzulTime\TimerEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="AzulTime\TimerEvents\BangEvent.h">
+      <Filter>AzulTime\TimerEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="AzulTime\TimerEvents\BirdDeath.h">
+      <Filter>AzulTime\TimerEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Tower\Tower2.h">
+      <Filter>GameObject\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Tower\Tower1.h">
+      <Filter>GameObject\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="AzulTime\TimerEvents\SmokeDeletion.h">
+      <Filter>AzulTime\TimerEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Levels\FirstLevel.h">
+      <Filter>Scenes\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Levels\FourthLevel.h">
+      <Filter>Scenes\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Levels\SecondLevel.h">
+      <Filter>Scenes\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Levels\ThirdLevel.h">
+      <Filter>Scenes\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObjects\Visualizer.h">
+      <Filter>GraphicsObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Levels\FifthLevel.h">
+      <Filter>Scenes\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Tower\Tower3.h">
+      <Filter>GameObject\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Levels\SixthLevel.h">
+      <Filter>Scenes\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Terrain\Terrain.h">
+      <Filter>GameObject\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Terrain\TerrainSegment.h">
+      <Filter>GameObject\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Objects\Gear.h">
+      <Filter>GameObject\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\JointDeletion.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\GameObjectCharacteristics.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Levels\SeventhLevel.h">
+      <Filter>Scenes\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Objects\CollisionObjectTri.h">
+      <Filter>GameObject\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Birds\Bird.h">
+      <Filter>GameObject\Birds</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Levels\EighthLevel.h">
+      <Filter>Scenes\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\CollisionControl.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\ContactAction.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\LineRayCast.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs\RayCastQuery.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Objects\Rope.h">
+      <Filter>GameObject\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\AABBRayCast.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs\AABBQuery.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\ABStack.h">
+      <Filter>ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\ManagedPool.h">
+      <Filter>ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="AzulTime\TimerEvents\TrailCreation.h">
+      <Filter>AzulTime\TimerEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\FeatherYellow.h">
+      <Filter>ParticleSystem\Particles\Feathers\YellowFeather</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\FeatherRed.h">
+      <Filter>ParticleSystem\Particles\Feathers\RedFeather</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\FeatherBlack.h">
+      <Filter>ParticleSystem\Particles\Feathers\BlackFeather</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\FeatherBlue.h">
+      <Filter>ParticleSystem\Particles\Feathers\BlueFeather</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\FeatherGreen.h">
+      <Filter>ParticleSystem\Particles\Feathers\GreenFeather</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\FeatherWhite.h">
+      <Filter>ParticleSystem\Particles\Feathers\WhiteFeather</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\ExplosionFeathers.h">
+      <Filter>ParticleSystem\Particles\Feathers</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\TrailCollection.h">
+      <Filter>ParticleSystem\Particles\TrailSmoke</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\TrailSmoke.h">
+      <Filter>ParticleSystem\Particles\TrailSmoke</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\ProjectedTrajectory.h">
+      <Filter>ParticleSystem\Particles\ProjectedTrajectory</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\Projector.h">
+      <Filter>ParticleSystem\Particles\ProjectedTrajectory</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\ProjectorCollection.h">
+      <Filter>ParticleSystem\Particles\ProjectedTrajectory</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs\LineCollider.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\CircleCollection.h">
+      <Filter>ParticleSystem\Particles\CircleParticles</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\CircleParticles.h">
+      <Filter>ParticleSystem\Particles\CircleParticles</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs\SaltSalt.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs\LineDynamicCollider.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Objects\Egg.h">
+      <Filter>GameObject\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Levels\LoadLevel.h">
+      <Filter>Scenes\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="AzulTime\TimerEvents\LevelLoader.h">
+      <Filter>AzulTime\TimerEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="AzulTime\TimerEvents\NextLevelLoader.h">
+      <Filter>AzulTime\TimerEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="AzulTime\TimerEvents\GravityBox.h">
+      <Filter>AzulTime\TimerEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="AzulTime\TimerEvents\InverseGravity.h">
+      <Filter>AzulTime\TimerEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Objects\SensorBox.h">
+      <Filter>GameObject\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Objects\Platform.h">
+      <Filter>GameObject\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GameObject.cd" />
+    <None Include="Box2D.cd" />
+    <None Include="Shaders\colorRender.fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\colorRender.vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\spriteLineRender.fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\spriteLineRender.vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\spriteRender.fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\spriteRender.vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\spriteTriRender.fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\spriteTriRender.vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\texturePointLightDiff.fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\texturePointLightDiff.vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\textureRender.fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\textureRender.vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Debug\ikpMP3.dll">
+      <Filter>_Libs\Audio</Filter>
+    </None>
+    <None Include="Debug\irrKlang.dll">
+      <Filter>_Libs\Audio</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\dist\File\lib\File_Debug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+    <Library Include="..\dist\GLFW\lib\GLFW_Debug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+    <Library Include="..\dist\Math\lib\MathEngine_Debug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+    <Library Include="..\dist\PCSTree\lib\PCSTreeDebug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+    <Library Include="..\dist\SB6\lib\sb6_Debug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+    <Library Include="Debug\irrKlang.lib">
+      <Filter>_Libs\Audio</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\reference\reference\Asset\Flame.tga">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\reference\reference\Asset\Gears\Gears.tga">
+      <Filter>Assets\Gears</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\reference\reference\Asset\Azul\Aliens.tga">
+      <Filter>Assets\Azul</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\reference\reference\Asset\Azul\Stitch.tga">
+      <Filter>Assets\Azul</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\AngryBirdBackground.tga">
+      <Filter>Assets\AngryBirds</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\glassBlocks.tga">
+      <Filter>Assets\AngryBirds</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\slingV2.tga">
+      <Filter>Assets\AngryBirds</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\stoneBlocks.tga">
+      <Filter>Assets\AngryBirds</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\unsorted.tga">
+      <Filter>Assets\AngryBirds</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\woodBlocks.tga">
+      <Filter>Assets\AngryBirds</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\woodPlatform.tga">
+      <Filter>Assets\AngryBirds</Filter>
+    </Image>
+    <Image Include="MyAssets\Levels.tga">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="MyAssets\Space.tga">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="MyAssets\SpaceLevel.tga">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\accordion_break.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\accordion_empty_pull.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\accordion_empty_push.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\alarm_egg_stolen_01.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\alarm_egg_stolen_02.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\alarm_egg_stolen_03.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\ball_bounce.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\balloon_inflate_01.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\balloon_inflate_02.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\balloon_magic_pop.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\balloon_pop.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bellows_01.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bellows_02.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bellows_03.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\big_bird.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bigbrother_awakens.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bigbrother_fly.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bigbrother_select.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bigbrother_yell.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 01 collision a1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 01 collision a1_low.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 01 collision a2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 01 collision a2_low.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 01 collision a3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 01 collision a3_low.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 01 collision a4.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 01 collision a4_low.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 01 flying.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 01 select.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 02 collision a1.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 02 collision a1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 02 collision a2.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 02 collision a2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 02 collision a3.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 02 collision a3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 02 collision a4.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 02 collision a4.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 02 collision a5.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 02 collision a5.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 02 flying.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 02 select.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 03 collision a1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 03 collision a2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 03 collision a3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 03 collision a4.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 03 collision a5.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 03 flying.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 03 select.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 04 collision a1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 04 collision a2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 04 collision a3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 04 collision a4.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 04 flying.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 04 select.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 05 collision a1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 05 collision a2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 05 collision a3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 05 collision a4.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 05 collision a5.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 05 flying.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird 05 select.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird destroyed.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird misc a1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird misc a2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird misc a3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird misc a4.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird misc a5.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird misc a6.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird misc a7.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird misc a8.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird misc a9.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird misc a10.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird misc a11.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird misc a12.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird next military a1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird next military a2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird next military a3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird pushing egg out.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird shot-a1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird shot-a2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird shot-a3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird_06_flying.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird_red_charge_01.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird_red_charge_02.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bird_red_charge_03.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\birds_bomb_shockwave_01.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\birds_bomb_shockwave_02.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\birthday_cake1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\birthday_cake2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bmajor_left.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\bmajor_right.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\boomerang_activate.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\boomerang_select.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\boomerang_swish.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\button_radio.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\cannon_shot_01.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\cannon_shot_02.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\cminor_left.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\cminor_right.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\dismajor_left.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\dismajor_right.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\earthquake.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\fmajor_left.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\fmajor_right.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\gamescorescreen_score_count_loop.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Globe_Bird_Death_remove_1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Globe_Bird_Hit_1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Globe_Bird_Hit_2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Globe_Bird_Hit_3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Globe_Bird_Hit_4.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Globe_Bird_idle_01.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Globe_Bird_idle_02.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Globe_Bird_idle_03.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Globe_Bird_Launch_3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Globe_Bird_Selection_1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Globe_Bird_Special_Activation_1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Globe_Bird_Special_Activation_2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Globe_Bird_Special_Activation_3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\gminor_left.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\gminor_right.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\goldenegg.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\helicopter_rotor.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\highscore.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\ice light collision a1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\ice light collision a2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\ice light collision a3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\ice light collision a4.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\ice light collision a5.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\ice light collision a6.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\ice light collision a7.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\ice light collision a8.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\jewel_break_01.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\jewel_break_01b.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\jewel_break_02.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\jewel_break_02b.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\jewel_break_03.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\jewel_break_03b.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\laser_sight.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\level clear military a1.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\level clear military a2.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\level failed piglets a1.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\level failed piglets a2.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\level start military a1.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\level start military a2.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\light damage a1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\light damage a2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\light damage a3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\light destroyed a1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\light destroyed a2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\light destroyed a3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\light rolling.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Lightning01.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Lightning02.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Lightning03.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\Lightning04.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\menu back.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\menu confirm.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\menu select.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_damaged_01.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_damaged_02.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_damaged_03.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_damaged_04.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_damaged_05.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_destroyed_01.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_destroyed_02.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_destroyed_03.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_destroyed_04.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_hit_01.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_hit_02.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_hit_03.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_hit_04.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_hit_05.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_hit_06.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_hit_07.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\metal_pipe_hit_08.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\mighty_eagle_bounce.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\mighty_eagle_fly.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\mightyeagle.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\mightymouse.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\mightymouse_select.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piano-c.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piano-cis.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piano-d.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piano-dis.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piano-e.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piano-f.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piano-fis.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piano-g.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_bd.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_hi-hat_1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_hi-hat_2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_singing_1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_singing_2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_singing_3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_singing_4.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_singing_5.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_singing_6.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_singing_7.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_singing_8.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_snare_1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_snare_2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_snare_3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pig_snare_4.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette collision a1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette collision a2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette collision a3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette collision a4.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette collision a5.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette collision a6.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette collision a7.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette collision a8.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette damage a1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette damage a2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette damage a3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette damage a4.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette damage a5.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette damage a6.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette damage a7.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette damage a8.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette destroyed.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette oink a1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette oink a2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette oink a3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette oink a4.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette oink a5.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette oink a6.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette oink a7.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette oink a8.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette oink a9.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette oink a10.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette oink a11.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette oink a12.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\piglette oink story.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pigs_electricity_zap_01.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pigs_electricity_zap_02.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pigs_electricity_zap_03.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pigs_electricity_zap_04.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pigs_electrocuted_01.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pigs_electrocuted_02.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pigs_electrocuted_03.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pigs_electrocuted_04.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pigs_electrocuted_05.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pigs_potion_bubbles_01.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pigs_potion_deflate_01.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pigs_potion_inflate_01.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pigs_potion_split_01.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_activate_01.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_activate_02.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_activate_03.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_collision_01.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_collision_02.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_collision_03.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_collision_04.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_collision_05.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_launch_01.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_launch_02.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_launch_03.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_special_01.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_special_02.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\pink_special_03.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\plunger_collision_01.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\plunger_collision_02.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\plunger_collision_03.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\plunger_collision_04.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\plunger_destroyed_01.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\plunger_destroyed_02.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\powerup_awarded.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\powerup_awarded2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\powerup_intro.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\propeller.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\redbird_yell01.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\redbird_yell02.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\redbird_yell03.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\rock collision a1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\rock collision a2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\rock collision a3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\rock collision a4.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\rock collision a5.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\rock damage a1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\rock damage a2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\rock damage a3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\rock destroyed a1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\rock destroyed a2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\rock destroyed a3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\rock rolling.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\rocket_full.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\sardine_can_physics_a2.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\sardine_can_shot.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\slingshot streched.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\slot_1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\slot_2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\slot_3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\slot_machine.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\special boost.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\special egg explosion.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\special egg.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\special group.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\stalaktite_break_01.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\stalaktite_break_02.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\stalaktite_break_03.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\star_1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\star_2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\star_3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\star_collect.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\suction_loop_01.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\suction_start_01.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\super_shot.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\super_slingshot.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\target_change_01.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\target_lock_01.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\title_theme.mp3">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\tnt box explodes.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\trampoline.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\vial_break_01.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\vial_break_02.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\vial_break_03.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\vial_break_04.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\wood collision a1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\wood collision a2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\wood collision a3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\wood collision a4.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\wood collision a5.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\wood collision a6.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\wood damage a1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\wood damage a2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\wood damage a3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\wood destroyed a1.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\wood destroyed a2.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\wood destroyed a3.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+    <Media Include="..\..\..\..\..\reference\reference\Asset\AngryBirds\Audio\wood rolling.wav">
+      <Filter>Assets\AngryBirds\Audio</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
